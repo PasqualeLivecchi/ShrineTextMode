@@ -189,6 +189,24 @@ Bool MyPutKey(I64 ch,I64 sc)
 	else
 	  "$$ID,-5$$";
 	return TRUE;
+      case 'X':
+        if (sc&SCF_KEY_DESC)
+          KeyDescSet("Kill current task");
+        else
+          LBts(sys_ctrl_alt_flags,CTRL_ALT_X);
+        return TRUE;
+      case 'N':
+        if (sc&SCF_KEY_DESC)
+          KeyDescSet("Next window");
+        else
+          LBts(sys_ctrl_alt_flags,CTRL_ALT_TAB);
+        return TRUE;
+      case 'T':
+        if (sc&SCF_KEY_DESC)
+          KeyDescSet("New terminal window");
+        else
+          User;
+        return TRUE;
     }
   }
   return FALSE;

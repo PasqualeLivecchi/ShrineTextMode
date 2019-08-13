@@ -1,8 +1,8 @@
-$TR,"Adam"$
+$TR-C,"Adam"$
 $ID,2$$TR,"SysMsgFlags"$
 $ID,2$sys_msg_flags[0]=0;
 $ID,-2$$TR,"SysRegVer"$
-$ID,2$registry_version=5.030;
+$ID,2$registry_version=5.050;
 $ID,-2$$TR,"InsReg"$
 $ID,2$#help_index "Registry/Install Registration"
 MemSet(&ins_reg,0,sizeof(CInsReg));

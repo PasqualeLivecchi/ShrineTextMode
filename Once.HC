@@ -1,6 +1,6 @@
-#include "::/Apps/Lsh";
-#include "::/Apps/Pkg";
-#include "::/Misc/PalUbuntu.HC"
+//#include "::/Apps/Lsh";
+//#include "::/Apps/Pkg";
+//#include "::/Misc/PalUbuntu.HC"
 
 //Place this file in /Home and change
 //anything you want.

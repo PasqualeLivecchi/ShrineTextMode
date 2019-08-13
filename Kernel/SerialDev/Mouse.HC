@@ -68,7 +68,8 @@ U0 MsInit()
   ms.scale.x=ms.scale.y=ms.scale.z=1.0;
   ms.pos_text.x=ms.pos_text.y=ms.pos_text.z=0;
   ms.has_wheel=FALSE;
-  ms.show=TRUE;
+  //ms.show=TRUE;
+  ms.show=FALSE;
   ms.speed=0;
   ms.timestamp=GetTSC;
   ms.dbl_time=0.350;
